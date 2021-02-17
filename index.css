@@ -22,6 +22,7 @@ header,
 footer {
   width: 90%;
   margin: 0 auto;
+  height: 200px;
 }
 
 nav {
@@ -106,8 +107,17 @@ main .bottom-section div p {
   margin: 0 auto;
 }
 
+.valley {
+  width: 100%;
+}
+
 /* * footer */
 
-main footer {
+footer {
   background-color: #f9e7dc;
+}
+
+footer nav {
+  /* margin: 0; */
+  padding: 0;
 }
